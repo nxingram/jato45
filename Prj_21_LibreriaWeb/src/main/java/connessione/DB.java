@@ -15,9 +15,10 @@ public class DB {   //L'oggetto DB ha il compito di connettere
 	public Connection connetti() {
 		
 		try {
-			// Se colleghi la jar come classe jar esterna, per il proj e su tomcat launch config 
-			// non serve "class.forname..."
-			// quato problema si presenta se metti la lib dentro WEB-INF/lib
+//			 Se colleghi la jar come  "jar esterna" sia per il proj sia tomcat launch config 
+//			 non serve "class.forname..."
+//			 questo problema si presenta solo se metti la lib dentro WEB-INF/lib
+			
 //			try {
 //				Class.forName("com.mysql.cj.jdbc.Driver");  //la classe class ha un metodo statico che ritorna la classe presa una stringa
 //			} catch (ClassNotFoundException e) {
